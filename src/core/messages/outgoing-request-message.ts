@@ -248,6 +248,9 @@ export class OutgoingRequestMessage {
     if (this.options.hackViaTcp) {
       transport = "TCP";
     }
+    if (transport === 'WSS') {
+      transport = 'WS'
+    }
     let via = "SIP/2.0/" + transport;
     via += " " + this.options.viaHost + ";branch=" + branch;
     if (this.options.forceRport) {
