@@ -1,10 +1,8 @@
 ![SIP.js Logo](https://sipjs.com/shared/img/logo.png "SIP.js")
 
-[![Build Status](https://travis-ci.com/onsip/SIP.js.svg?branch=master)](https://travis-ci.com/onsip/SIP.js)
-[![npm version](https://badge.fury.io/js/sip.js.svg)](https://badge.fury.io/js/sip.js)
 
 # SIP Library for JavaScript
-
+- Seewin customized
 - Create real-time peer-to-peer audio and video sessions via [WebRTC](https://webrtc.org/)
 - Utilize SIP in your web application via [SIP over WebSocket](https://tools.ietf.org/html/rfc7118) 
 - Send instant messages and view presence
